@@ -1,0 +1,47 @@
+{
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.altClickMovesCursor": false,
+    "rust-analyzer.server.path": "/opt/homebrew/bin/rust-analyzer",
+    "rust-analyzer.updates.channel": "nightly",
+    "rust-analyzer.updates.askBeforeDownload": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.lightbulb.enabled": false,
+    "[c]": {
+        "editor.wordBasedSuggestions": true,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.external.osxExec": "iterm.app",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "editor.cursorStyle": "block",
+    "vscodeGoogleTranslate.preferredLanguage": "Chinese (Simplified)",
+    "background.loop": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "explorer.confirmDragAndDrop": false,
+}
