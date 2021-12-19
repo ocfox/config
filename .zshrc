@@ -5,4 +5,8 @@ export PATH="/Users/sunsky/.cargo/bin/:$PATH"
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.p10k.zshv
+source ~/.p10k.zsh
+
+# alias
+alias c="clear"
+alias q="exit"
