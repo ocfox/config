@@ -1,0 +1,17 @@
+alt + Return
+  alacritty
+
+alt + {_,shift + } {1-9}
+  bspc {desktop -f,node -d} '^{1-9}'
+
+alt + {w,q}
+  bspc node -{c,k}
+
+alt + {h,j,k,l}
+  bspc node -f {west,south,north,east}
+
+alt + b
+  firefox
+
+alt + shift + s
+  flameshot gui
